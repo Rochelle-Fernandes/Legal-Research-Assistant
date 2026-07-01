@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===========================
+# Project-specific ignores
+# ===========================
+
+# Local LLM models
+models/
+
+# Generated vector embeddings / vector database
+vectorstore/
+
+# Uploaded PDFs (sample/test documents)
+data/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux editor backups
+*~
+
+# Streamlit cache
+.streamlit/
+
+# Secrets
+.streamlit/secrets.toml
